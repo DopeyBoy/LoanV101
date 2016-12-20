@@ -1,0 +1,76 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <!--竖直分割线-->
+    <style name="DividerV">
+        <item name="android:background">@color/E1E1E1</item>
+        <item name="android:layout_width">0.5dp</item>
+        <item name="android:layout_height">match_parent</item>
+    </style>
+
+    <!--横向分割线-->
+    <style name="DividerH">
+        <item name="android:background">@color/E1E1E1</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">0.5dip</item>
+    </style>
+
+    <!--横向分割线 据左侧有边距-->
+    <style name="DividerHP">
+        <item name="android:background">@color/F5F8Fa</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_marginLeft">10dp</item>
+        <item name="android:layout_marginRight">10dp</item>
+        <item name="android:layout_height">1dip</item>
+    </style>
+
+    <style name="Parent">
+        <item name="android:background">@color/F5F8Fa</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+    </style>
+
+    <style name="FullScreen" parent="AppTheme">
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowFullscreen">true</item>
+    </style>
+
+    <style name="SplashTheme" parent="FullScreen">
+        <item name="android:windowBackground">@drawable/bg_splash_activity</item>
+    </style>
+
+
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar"/>
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light"/>
+
+
+    <style name="AppTheme.ActionBar" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="actionMenuTextColor">@color/white</item>
+    </style>
+
+    <!--Dialog-->
+    <style name="mystyle" parent="@android:style/Theme.Dialog">
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowIsTranslucent">false</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowBackground">@drawable/dialog_bg</item>
+        <item name="android:backgroundDimEnabled">true</item>
+    </style>
+
+
+
+
+
+
+
+</resources>

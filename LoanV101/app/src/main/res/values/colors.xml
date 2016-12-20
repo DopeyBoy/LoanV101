@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <!--系统状态栏+状态栏头部-->
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+
+    <color name="white">#FFFFFF</color>
+    <color name="E1E1E1">#e1e1e1</color>
+    <color name="F9F9F9">#f9f9f9</color>
+
+    <!--背景色-->
+    <color name="F5F8Fa">#f5f8fa</color>
+    <color name="F3f3f3">#f3f3f3</color>
+    <!--文字颜色-->
+    <color name="cccccc">#cccccc</color>
+    <color name="F999999">#999999</color>
+    <color name="F666666">#666666</color>
+    <color name="F333333">#333333</color>
+    <color name="F259e00">#259E00</color>
+    <color name="F12bf88">#12bf88</color>
+    <!--主色-->
+    <color name="FF6700">#FF6700</color>
+    <!--辅色-->
+    <color name="FFb500">#FFb500</color>
+    <!--点缀1-->
+    <color name="FF6d6d">#FF6d6d</color>
+    <!--点缀2-->
+    <color name="F4892f1">#4892f1</color>
+    <color name="FF4a4a">#ff4a4a</color>
+
+    <!--星级颜色-->
+    <color name="colorFillOff">#d3d3d3</color>
+    <color name="colorFillOn">#ffb712</color>
+    <color name="colorFillPressedOff">#d3d3d3</color>
+    <color name="colorFillPressedOn">#ffb712</color>
+    <color name="colorOutlineOff">#d3d3d3</color>
+    <color name="colorOutlineOn">#ffb712</color>
+    <color name="colorOutlinePressed">#d3d3d3</color>
+    <color name="black">#000000</color><!--黑色 -->
+    <color name="btntextcolor">#0095fa</color><!--dialog中按钮字体颜色 -->
+
+    <!--相册-->
+    <color name="theme_body">#cc22292c</color>
+    <color name="status_bar">#303135</color>
+    <color name="top_bar">#9f556061</color>
+    <color name="transparent">#00000000</color>
+
+    <!--tag-->
+    <color name="tag_color">#fedfcd</color>
+    <color name="tag_text_color">#bc6d37</color>
+</resources>

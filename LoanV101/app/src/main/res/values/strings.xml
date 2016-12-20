@@ -1,0 +1,193 @@
+<resources>
+    <string name="app_name">猫头鹰1.0.1</string>
+
+    <string name="gallery_menu_finish">完成</string>
+    <string name="no_net">网络链接有误，请确认网络是否链接！</string>
+    <string name="updata_version">版本更新</string>
+
+    <string name="loading">正在加载中...</string>
+    <string name="load_failed">加载失败，请点我重试</string>
+    <string name="load_end">没有更多数据</string>
+
+    <!--登录-->
+    <string name="blog">《悠帮用户协议》</string>
+    <string name="login_btn">开启悠帮</string>
+    <string name="not_agreement">请先同意《悠帮用户协议》</string>
+    <string name="input_code">请先输入验证码</string>
+    <string name="has_see">我已阅读并同意</string>
+    <!--入驻-->
+    <string name="open_shop">项为必选</string>
+    <string name="open_shop_zhu">注:&#160;&#160;为了便于审核,以上信息需要您如实填写</string>
+    <string name="open_shop_city">所在城市</string>
+    <string name="open_shop_position">位置</string>
+    <string name="open_shop_address">详细地址</string>
+    <string name="open_shop_shop_name">店铺名称</string>
+    <string name="open_shop_range">经营范围</string>
+    <string name="open_shop_linkman">联系人</string>
+    <string name="open_shop_phone">联系电话</string>
+    <string name="open_shop_icon">店铺门脸图</string>
+    <string name="open_shop_icon_content">图片要求\n1.图片需现场采集\n2.图片不得有水印、\nlogo和其他网站信息</string>
+    <string name="open_ambient_icon">店铺环境图</string>
+    <string name="open_shop_enterprise_name">企业名称</string>
+    <string name="open_shop_business_nmb">营业执照编号</string>
+    <string name="open_shop_business_icon">营业执照图</string>
+    <string name="open_shop_bank">开户银行</string>
+    <string name="open_shop_bank_num">银行账号</string>
+    <string name="open_contract_dialog">信息已提交!\n我们将在1-3个工作日进行审核~</string>
+    <string name="open_contract1_dialog">确定退出么？退出后填写信息不会保存</string>
+    <!--商户反馈-->
+
+    <string name="act_title">商户反馈</string>
+    <string name="report_title">举报评论</string>
+    <string name="report_content">举报内容</string>
+    <string name="report_content_tag1">广告</string>
+    <string name="report_content_tag2">违法-政治敏感内容</string>
+    <string name="report_content_tag3">淫秽色情</string>
+    <string name="report_content_tag4">恶意评论</string>
+    <string name="report_content_tag5">人身攻击</string>
+    <string name="report_content_tag6">其他</string>
+    <string name="report_hint">请仔细填写,以确保举报能够手里</string>
+
+    <!--用户评论-->
+
+    <string name="user_comment">用户评价</string>
+    <string name="comment_normal">举报</string>
+    <string name="has_comment">已经举报</string>
+    <string name="comment_success">举报成功</string>
+    <string name="comment_fail">举报失败</string>
+    <string name="pay_detail">交易详情</string>
+
+
+    <!--自定义Dialog文字-->
+
+    <string name="action_settings">Settings</string>
+    <string name="single_uialertview">IOS UIAlertView(单个按钮)</string>
+    <string name="single_alertdialog">Android AlertDialog(单个按钮)</string>
+    <string name="double_uialertview">IOS UIAlertView(两个按钮)</string>
+    <string name="double_alertdialog">Android AlertDialog(两个按钮)</string>
+    <string name="three_uialertview">IOS UIAlertView(三个按钮)</string>
+    <string name="three_alertdialog">Android AlertDialog(三个按钮)</string>
+    <string name="prompt">请输入图片中的内容</string>
+    <string name="exit_app">你确定要退出应用吗?</string>
+    <string name="input_img_tip">请输入四位验证码</string>
+    <string name="confirm">确定</string>
+    <string name="cancel">取消</string>
+    <string name="dismiss">隐藏</string>
+
+    <!--店铺公告-->
+    <string name="shop_announce">店铺公告</string>
+    <string name="null_title">公告标题不能为空</string>
+    <string name="null_content">公告内容不能为空</string>
+    <string name="shop_announce_send">发布公告</string>
+    <string name="shop_send">发布</string>
+    <string name="hint_title">标题（8个字）</string>
+    <string name="hint_content">公告内容</string>
+    <string name="shop_announce_detail">消息详情</string>
+    <string name="announce_title">春节期间暂停营业</string>
+    <string name="announce_content">店铺公告内容部分用花生哦啊就是怕奇偶阿嫂评价啊卡数据库里健康了三大件爱是看得见公告内容部分用花生哦啊就是怕奇公告内容部分用花生哦啊就是怕奇</string>
+    <string name="announce_time">2016-11-16日13:50</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="no_permission">您暂时没有权限，谢谢</string>
+
+
+    <string name="search">搜索提示:\t城市/行政区/拼音</string>
+    <string name="search_text">搜索的地址</string>
+
+    <!--相册-->
+    <string name="all_images">全部图片</string>
+    <string name="folder_image_count">共%1$d张</string>
+    <string name="preview_image_count">%1$s/%2$s</string>
+    <string name="select_limit">最多选择%1$s张图片</string>
+    <string name="complete">使用</string>
+    <string name="select_complete">完成(%1$s/%2$s)</string>
+    <string name="preview_count">预览(%1$s)</string>
+    <string name="preview_put">上传(%1$s)</string>
+    <string name="photo_crop">图片裁剪</string>
+    <string name="origin">原图</string>
+    <string name="origin_size">原图(%1$s)</string>
+
+    <!--商家消息-->
+    <string name="sysinfo_title">消息</string>
+    <!--二维码-->
+    <string name="qr_code_info">扫一扫上面的二维码，向我付款</string>
+    <string name="qr_code_title">店铺二维码</string>
+    <string name="detail_in">收款详情</string>
+
+    <!--我的-->
+    <string name="my_wall">我的钱包</string>
+    <string name="shop_manager">店铺管理</string>
+    <string name="shop_manager_tag">编辑标签</string>
+    <string name="shop_manager_user">编辑资料</string>
+    <string name="shop_manager_out">退出本店</string>
+    <string name="user_manager">店员管理</string>
+    <string name="apply_wuliao">申请物料</string>
+    <string name="no_notice">消息免打扰</string>
+    <string name="no_notice_time">免打扰时间</string>
+    <string name="fade_back">意见反馈</string>
+    <string name="setting">设置</string>
+    <string name="setting_tel">400-88888888</string>
+    <string name="setting_tel1">客服电话</string>
+    <string name="setting_about">关于我们</string>
+    <string name="setting_server">服务协议</string>
+    <string name="setting_clear">清理缓存</string>
+    <string name="setting_updata">版本更新</string>
+    <string name="setting_out">退出登录</string>
+    <string name="setting_save">保存</string>
+    <string name="out_detail">提现明细</string>
+    <string name="feedback">告诉\t“悠帮”\t您的宝贵意见，我们改进会更快的</string>
+    <string name="feedback_hint_content">请输入您的意见...</string>
+
+
+    <!--修改资料-->
+    <string name="myImg">头像</string>
+    <string name="myNick">昵称</string>
+    <string name="mySex">性别</string>
+    <string name="myMotto">个性签名</string>
+    <string name="myRegistID">注册账号</string>
+    <string name="myRegistTime">注册时间</string>
+    <string name="adduser">添加店员</string>
+    <string name="myNameTip">姓名</string>
+    <string name="myPhoneTip">电话</string>
+    <string name="myUserTip">角色</string>
+    <string name="myInvite">邀请</string>
+    <string name="confirm_ok">知道了</string>
+
+    <string name="myWall">我的钱包</string>
+    <string name="mywallmoney">账户余额</string>
+    <string name="myrmb">¥ </string>
+    <string name="myinputall">累计收入</string>
+    <string name="myhasout">已经提醒</string>
+
+    <string name="sex_man">男</string>
+    <string name="sex_woman">女</string>
+    <string name="pay_cancle">取消交易</string>
+    <string name="re_enconding">重新扫码</string>
+    <string name="title_activity_applydetail">ApplydetailActivity</string>
+
+    <!--店铺管理-->
+    <string name="certification_store__name">店铺名称</string>
+    <string name="certification_category">行业分类</string>
+    <string name="certification_address">店铺地址</string>
+    <string name="certification_enterprise">企业名称</string>
+    <string name="certification_business_license">营业执照</string>
+    <string name="certification_bank_account">开户银行</string>
+    <string name="certification_bank_num">银行卡号</string>
+    <string name="certification_contract_agreement">签约协议</string>
+
+
+    <string name="apply_detail">提现详情</string>
+    <string name="out_apply">申请提现</string>
+    <string name="out">申请</string>
+    <string name="all_apply">全部提现</string>
+    <string name="all_apply_tip">*请确保您的银行卡号无误，因银行卡号错误导致的资金损失由您自己承担。\n*单笔提现金额不小于1元，每天只能提现一次。</string>
+    <string name="submit">提交</string>
+
+    <string name="app_money">提现金额</string>
+    <string name="app_bank">银行卡</string>
+    <string name="app_add_time">创建时间</string>
+    <string name="app_tip">到账周期</string>
+    <string name="app_order_id">订单号</string>
+    <string name="app_flow_id">银行流水号</string>
+    <string name="app_error">失败原因</string>
+
+</resources>

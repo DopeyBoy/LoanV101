@@ -1,0 +1,79 @@
+apply plugin: 'com.android.application'
+
+def supportVersion = "25.0.0"
+android {
+    compileSdkVersion 25
+    buildToolsVersion supportVersion
+    compileOptions{
+        encoding 'UTF-8'
+    }
+    defaultConfig {
+
+        //applicationId "com.xxx.xxx" //JPush上注册的包名.
+
+        applicationId "com.llkj.creditchecking"
+
+        ndk {
+            //选择要添加的对应cpu类型的.so库。
+            abiFilters 'armeabi', 'armeabi-v7a', 'armeabi-v8a'
+            // 还可以添加 'x86', 'x86_64', 'mips', 'mips64'
+        }
+
+        manifestPlaceholders = [
+                JPUSH_PKGNAME : applicationId,
+                //JPUSH_APPKEY : "adf92fa54f3890c4871295f2", //JPush上注册的包名对应的appkey.
+                JPUSH_APPKEY : "191c304c4636e22582aabc21", //JPush上注册的包名对应的appkey.
+                JPUSH_CHANNEL : "developer-default", //暂时填写默认值即可.
+        ]
+
+        minSdkVersion 15
+        targetSdkVersion 25
+        versionCode 101
+        versionName "1.0.1"
+
+    }
+
+//    signingConfigs {
+//        appkey {
+//            keyAlias 'tyjinkong'
+//            keyPassword 'gsk1993914'
+//            storeFile file('keystore.jks')
+//            storePassword 'gsk1993914'
+//        }
+//    }
+
+    buildTypes {
+        release {
+            minifyEnabled true//是否用来混淆 在android 1.0 之前为 runProguard 函数
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+           // signingConfig signingConfigs.appkey
+            debuggable false
+            shrinkResources true
+            zipAlignEnabled true;//设置是否对APK包执行ZIP对齐优化
+        }
+        debug {
+            minifyEnabled false//是否用来混淆 在android 1.0 之前为 runProguard 函数
+           // signingConfig signingConfigs.appkey
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+            debuggable true;
+        }
+    }
+}
+
+dependencies {
+    compile fileTree(dir: 'libs', include: ['*.jar'])
+    compile 'cn.jiguang.sdk:jpush:3.0.0'  // 此处以JPush 3.0.0 版本为例
+    compile 'cn.jiguang.sdk:jcore:1.0.0'  // 此处以JCore 1.0.0 版本为例。
+    compile 'com.android.support:appcompat-v7:25.0.1'
+    compile 'com.android.support:recyclerview-v7:' + supportVersion
+    compile 'com.android.support:cardview-v7:' + supportVersion
+    compile 'com.github.bumptech.glide:glide:3.7.0'
+    compile 'com.github.CymChad:BaseRecyclerViewAdapterHelper:v2.0.7'
+    compile 'com.google.code.gson:gson:2.5'
+
+    compile 'com.jakewharton:butterknife:7.0.1'
+    compile 'com.lzy.net:okgo:+'
+    //compile project(path: ':LRecyclerview_library')
+    testCompile 'junit:junit:4.12'
+    compile 'com.android.support:support-v4:25.1.0'
+}
